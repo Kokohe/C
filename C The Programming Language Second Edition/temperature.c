@@ -1,0 +1,40 @@
+// Header files, “menu of available features”
+#include <stdio.h>
+// #include <math.h>
+
+// #define lower           0
+// #define upper           300
+// #define step            20
+// #define fahrHeader      "Fahrenheit"
+// #define celsiusHeader   "Celsius"
+
+//// Better way to do it ////
+const int lower = 0;
+const int upper = 300;
+const int step = 20;
+const char fahrHeader[] = "Fahrenheit";
+const char celsiusHeader[] = "Celsius";
+
+int main(){
+    //// WHILE LOOP METHOD ////
+    float fahr, celsius; 
+    fahr = lower;
+
+    printf("%s %s\n", fahrHeader, celsiusHeader);
+    while (fahr <= upper){
+        celsius = (5.0/9.0) * (fahr-32.0);
+        printf("%3.0f %6.1f\n", fahr, celsius);
+        fahr = fahr + step; 
+    }
+    return 0;
+}
+
+//  int main(){
+        //// FOR LOOP METHOD ////
+//      int fahr;
+
+//      printf("%s %s\n", fahrHeader, celsiusHeader);
+
+//      for (fahr = upper; fahr >= lower; fahr = fahr - step)
+//          printf("%3d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
+//  }
