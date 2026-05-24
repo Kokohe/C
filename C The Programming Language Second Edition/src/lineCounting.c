@@ -2,9 +2,13 @@
 #include <stdint.h>
 
 int main(){
-    double nc;
+    int32_t c, nl;
 
-    for (nc = 0; getchar() != EOF; ++nc)
-        ;
-    printf("%.0f\n", nc);
+    nl = 0;
+    while((c = getchar()) != EOF){
+        if (c == '\n')
+            ++nl;
+        printf("%d\n", nl);
+
+    }
 }
