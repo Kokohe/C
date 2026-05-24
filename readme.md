@@ -17,4 +17,6 @@ Here is a list of differences I've found so far.
 \- Longs are 64 bit, instead of 32 bit  in 64 bit computers.\
 └──*To avoid microsoft complaining, specifying type sizes using <stdint.h> is standard practice. Examples: int32_t, int64_t. This is standard practice because microsoft decided it didn't want to play along with everyone else and set long to 32 bit, while every other opperating system uses long as 64 bit. Standardising int sizes through stdint.h prevents ambiguity in long ints so windows doesn't piss it's pants.*
 
-\- more points!
+\- The book with show #define, use const instead.  #define is a preprocessor macro that goes through your code and replaces every instance with the assigned variable. Const is an actual type variable, not a drop in replacement. Modern computing uses const, not #define.
+
+\- 
