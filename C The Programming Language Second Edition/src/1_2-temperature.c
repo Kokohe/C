@@ -38,3 +38,9 @@ int main(){
 //      for (fahr = upper; fahr >= lower; fahr = fahr - step)
 //          printf("%3d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
 //  }
+
+// EXERCISE 1-3 - Modify the temperature conversion program to print a heading above the table.
+
+// EXERCISE 1-4 - Write a program to print the corresponding Celsius to Fahrenheit table.
+
+// EXERCISE 1-5 - Modify the temperature conversion program to print the table in reverse order, that is, from 300 to 0.
