@@ -11,10 +11,10 @@
 // }
 
 int main(){
-    int c;
+    int32_t character;
 
-    while((c = getchar()) != EOF){
-        putchar(c);
+    while((character = getchar()) != EOF){
+        putchar(character);
     };
 }
 

@@ -9,9 +9,9 @@
 // #define celsiusHeader   "Celsius"
 
 //// Better way to do it ////
-const int lower = 0;
-const int upper = 300;
-const int step = 20;
+const int32_t lower = 0;
+const int32_t upper = 300;
+const int32_t step = 20;
 const char fahrHeader[] = "Fahrenheit";
 const char celsiusHeader[] = "Celsius";
 

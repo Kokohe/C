@@ -2,14 +2,13 @@
 #include <stdint.h>
 
 int main(){
-    int32_t c, nl;
+    int32_t character, newLine;
 
-    nl = 0;
-    while((c = getchar()) != EOF){
-        if (c == '\n')
-            ++nl;
-        printf("%d\n", nl);
-
+    newLine = 0;
+    while((character = getchar()) != EOF){
+        if (character == '\n')
+            ++newLine;
+    printf("%d\n", newLine);
     }
 }
 

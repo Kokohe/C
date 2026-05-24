@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    long nc;
+    int32_t newCharacter;
 
-    nc = 0;
-    while (getchar() != EOF && nc != '\n')
-        ++nc;
-    printf("%1ld\n", nc);
+    newCharacter = 0;
+    while (getchar() != EOF && newCharacter != '\n')
+        ++newCharacter;
+    printf("%1ld\n", newCharacter);
 }
 
 // int main(){
