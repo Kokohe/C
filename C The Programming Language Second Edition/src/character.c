@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-// main()
-// {
+// main(){
 //     int c;
 //     c = getchar();
 
@@ -13,11 +12,8 @@
 
 int main(){
     int c;
-    int eof;
 
     while((c = getchar()) != EOF){
-        eof = (getchar() != EOF);
-        printf("%d",eof);
         putchar(c);
     };
 }
