@@ -1,14 +1,7 @@
 // Header files, “menu of available features”
 #include <stdio.h>
-// #include <math.h>
+#include <stdint.h>
 
-// #define lower           0
-// #define upper           300
-// #define step            20
-// #define fahrHeader      "Fahrenheit"
-// #define celsiusHeader   "Celsius"
-
-//// Better way to do it ////
 const int32_t lower = 0;
 const int32_t upper = 300;
 const int32_t step = 20;
