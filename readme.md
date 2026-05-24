@@ -1,10 +1,8 @@
 # The book of C
 ## Introduction
-idk it's my C training stuff.
-
-source code files and exercises are located in "C The Programming Language Second Edition/src"
-Compiled binaries of each source file located in "C The Programming Language Second Edition/bin"
-Test files for my own understanding located in "C The Programming Language Second Edition/testing"
+source code files and exercises are located in "C The Programming Language Second Edition/src".
+Compiled binaries of each source file located in "C The Programming Language Second Edition/bin".
+Test files for my own understanding located in "C The Programming Language Second Edition/testing".
 
 2 versions of the ANSI C K&R book are supplied, a pdf version and a text version.
 
