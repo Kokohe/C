@@ -12,10 +12,7 @@ GCC uses C11 by default, but this can be changed using the -std= flag. "gcc -std
 I recommend not changing the compiler, and researching the differences between C89 and C11 during training.\
 Here is a list of differences I've found so far.
 
-- ints are 32 bit, instead of 16 bit in 64 bit computers.\
+- ints are 32 bit, instead of 16 bit in 64 bit computers.
 - longs are 64 bit, instead of 32 bit  in 64 bit computers. (except on windows machines because microsoft, more below.)
     - This is standard practice because microsoft decided it didn't want to play along with everyone else and set long to 32 bit, while every other opperating system uses long as 64 bit. Standardising int sizes through stdint.h prevents ambiguity in long ints so windows doesn't piss it's pants.
     - To avoid microsoft complaining, specifying type sizes using <stdint.h> is standard practice. Examples: int32_t, int64_t.
-- placeholder. (to check formatting .md file)
-    - test
-    - test
