@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main (){
-    int character, i, nWhite, nOther;
+    int character, i /*index*/, whiteCount, otherCount;
     int nDigit[10];
 
-    nWhite = nOther = 0;
+    whiteCount = otherCount = 0;
 
     for (i = 0; i < 10; ++i)
         nDigit[i] = 0;
@@ -12,13 +12,12 @@ int main (){
         if (character >= '0' && character <= '9')
             ++nDigit[character-'0'];
         else if (character == ' ' || character == '\n' || character == '\t')
-            ++nWhite;
+            ++whiteCount;
         else
-            ++nOther;
+            ++otherCount;
     printf("Digits =");
     for (i = 0; i < 10; ++i)
         printf(" %d", nDigit[i]);
-    printf(", White space = %d, other = %d\n", nWhite, nOther);
+    printf(", White space = %d, other = %d\n", whiteCount, otherCount);
     }
-    
 }
